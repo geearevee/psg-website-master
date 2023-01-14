@@ -1,0 +1,143 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(25, 25, 41);
+
+}
+*{
+    box-sizing: border-box;
+}
+
+
+.onenav{
+    /* ul => left of the container */
+    /* display: flex; */
+    /* here */
+    background-color: black;
+
+    
+}
+
+
+.onenav ul {
+    /* gap between elements and should be in a row */
+    display: flex;
+    gap: 10px;
+    text-decoration: none;
+    /* padding : 10px 15px */
+    padding: 10px 15px 10px 15px ;
+    margin: 0;
+}
+
+.onenav ul li {
+    text-decoration: none;
+    list-style-type: none;
+
+}
+.onenav ul li a{
+    /* color */
+text-decoration: none;
+color: white;
+}
+/* staring one nav styling */
+.logo-container{
+ display:flex;
+ /* you have to justify content : space-between */
+ justify-content: space-between ;
+ align-items: center;
+
+}
+.hamburger{
+    padding-left: 50px;
+}
+.logo ul{
+    display:flex;
+    gap: 5px;
+
+}
+.logo ul li{
+    list-style-type: none;
+}
+.psglogos{
+    width: 173px;
+    height: auto;
+}
+.psglogos img{
+    margin-top: 20px;
+    width: 80%;
+    height: auto;
+}
+.twonav ul{
+    font-family: 'Pathway Gothic One', sans-serif;
+    /* background-color: blue; */
+    display:flex;
+    justify-content: center;
+    font-weight: 600;
+
+    gap:50px;
+}
+
+.twonav ul li{
+    list-style-type: none;
+}
+
+.twonav ul li a{
+    text-decoration: none;
+    color: black;
+    letter-spacing: 2px;
+}
+
+.container{
+    width: 85%;
+    margin:0 auto;
+    background-color: white;
+}
+.content{
+    display:flex;
+}
+.content .sec1{
+    /* width */
+    width: 60%;
+    overflow: hidden;
+}
+
+.content .sec1 img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transition: .7s ease all;
+}
+
+.content .sec2{
+    /* width */
+    width: 40%;
+}
+
+.content:hover .sec1 img{
+    scale: 1.10;
+}
+.sec2{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:30px;
+    padding: 0px 40px;
+    background-color: rgb(51, 41, 60);
+    color: white;
+}
+.sec2 .redtext{
+    color:red;
+    text-decoration: none;
+}
+.women{
+    display:flex;
+
+}
+.women .sec1 img{
+    width: 40%;
+    height:auto;
+}
+.women .sec2 img{
+    width: 40%;
+    height:auto;
+}
